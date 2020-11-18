@@ -1,0 +1,9 @@
+service: config
+runtime: java11
+
+manual_scaling:
+  instances: 1
+
+resources:
+  cpu: 1
+  memory_gb: 1.5

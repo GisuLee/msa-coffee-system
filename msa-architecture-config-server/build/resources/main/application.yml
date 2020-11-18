@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: msa-architecture-config-server
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/GisuLee/msa-config

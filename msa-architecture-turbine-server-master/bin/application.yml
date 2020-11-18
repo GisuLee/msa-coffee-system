@@ -1,0 +1,23 @@
+server:
+  port: 9999
+
+spring:
+  application:
+    name: msa-architecture-turbine-server
+      
+#Config Server      
+  cloud:
+    config:
+      uri: http://localhost:8888 
+      name: msa-architecture-config-server
+
+#Eureka Client   
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9091/eureka/
+      
+#Turbine Server 
+turbine:     
+  appConfig: msa-service-coffee-order,msa-service-coffee-member,msa-service-coffee-status
+  clusterNameExpression: new String("default")

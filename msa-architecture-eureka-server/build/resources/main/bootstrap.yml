@@ -1,0 +1,19 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: msa-architecture-eureka-server
+  #Config Server
+  cloud:
+    config:
+      uri: https://config-dot-msa-achitecture-coffee-std.du.r.appspot.com/config-server
+      #uri: http://localhost:8080/config-server
+      name: msa-architecture-config-server
+#Eureka Standalone Server
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: https://eureka-dot-msa-achitecture-coffee-std.du.r.appspot.com/eureka/
+      #defaultZone : http://localhost:8081/eureka/

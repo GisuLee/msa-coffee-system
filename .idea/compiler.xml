@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.8/448003bc1b234aac04b58e27d7755c12c3ec4236/lombok-1.18.8.jar" />
+        </processorPath>
+        <module name="msa-book.msa-service-coffee-status.main" />
+        <module name="msa-book.msa-service-coffee-member.main" />
+        <module name="msa-book.msa-service-coffee-order.main" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="msa-book.abc.main" target="13" />
+      <module name="msa-book.abc.test" target="13" />
+      <module name="msa-service-coffee-order" target="13" />
+      <module name="msa-service-coffee-order.main" target="13" />
+      <module name="msa-service-coffee-order.test" target="13" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
