@@ -14,8 +14,11 @@ github
 ```
 
 ## 커피 주문 시스템 구상도
-![](http://)
+![](https://raw.githubusercontent.com/GisuLee/msa-coffee-system/master/msa_component.jpg)   
 
+
+## 커피 주문 시스템 상세 구성도
+![](https://raw.githubusercontent.com/GisuLee/msa-coffee-system/master/msa_arcitecture.jpg)   
 
 ## 커피 주문 시스템 구성 요소
 ```
@@ -31,5 +34,3 @@ github
 히스트릭스 대시보드(Hystrix Dashboard) : 마이크로서비스 스트림 데이터 모니터링 및 시각화
 ```
 
-## 커피 주문 시스템 상세 구성도
-![](http://)
