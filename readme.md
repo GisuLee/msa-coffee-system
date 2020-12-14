@@ -10,18 +10,19 @@
 
 ### Spring
 
-- 
-
-```
-Kafka
-SpringBoot
-SpringCloud config, Eureka, zuul, ribbon, turbine, hystrix, feign
-Mybatis
-H2 DB
-Lombok
-github
-
-```
+- Java 8
+- Gradle
+- Mybatis
+- Kafka
+- Springboot
+- Spring Data JPA
+- Spring Cloud Config
+- Spring Cloud Eureka
+- Spring Cloud Zuul
+- Spring Cloud riboon
+- Spring Cloud Turbin
+- Spring Cloud hystrix
+- Spring Cloud feign
 
 ## **커피 주문 시스템 구상도**
 
@@ -45,5 +46,3 @@ github
 터빈 서버(Turbine Server) : 마이크로서비스의 스트림 데이터 수집
 히스트릭스 대시보드(Hystrix Dashboard) : 마이크로서비스 스트림 데이터 모니터링 및 시각화
 ```
-
-# **마이크로서비스 아키텍처로 구현한 커피주문 시스템**
